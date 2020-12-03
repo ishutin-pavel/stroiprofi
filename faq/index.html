@@ -189,13 +189,12 @@
 			
 			<li><input type="checkbox" id="q-form" checked="checked" />
 				<h2><label for="q-form">Не нашли ответ на свой вопрос? Напишите нам.</label></h2>
-				<form action="/php/faq.php" method="post" name="faq">
+				<form action="/mail.php" method="post" name="faq">
 					<ul>
 						<li><input type="text" name="name" placeholder="Имя и фамилия*" /></li>
 						<li><input type="text" name="email" placeholder="Электронная почта*" /></li>
 						<li class="textarea"><textarea name="question" placeholder="Текст вопроса*"></textarea></li>
-						<li class="submit"><button type="submit">Отправить</button>
-						</li>
+						<li class="submit"><button type="submit">Отправить</button></li>
 					</ul>
 				</form>
 			</li>

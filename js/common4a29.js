@@ -1794,6 +1794,7 @@ jQuery(function($) {"use strict";
         return false;
       }
       ajaxWorking(1);
+			console.log('send');
       $.ajax({type:"POST", async:true, dataType:"json", url:_this.attr("action"), data:_this.serialize(), success:function(msg) {
         if (msg) {
           _this.addClass("success");
